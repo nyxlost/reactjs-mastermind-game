@@ -31,7 +31,7 @@ function Answer() {
     <div className="space-y-2">
       <h2 className="text-2xl font-semibold">Different between ReactJS and NextJS</h2>
       <p className="text-gray-700">
-        ความแตกต่างของ React และ Next คือ React เป็นไลบรารี ที่ทำงานในส่วน Client side ไม่มี router ของตัวเอง และในการทำ SEO จำเป็นต้องใช่ตัวช่วยเนื่องจาก react ทำงานฝั่ง Client ส่วน Next เป็น framework ของ react มีรูปแบบเหมือน react แต่มีการจัดการ route ของตัวเองและทำงานใน server side ทำให้จัดการ SEO ได้ดีกว่าเพราะข้อมูลถูก render แล้วก่อนส่งไปยังหน้าเว็บ และทำได้ทั้ง Client และ Server สามารถสร้าง api routes ได้และมีประสิทธิภาพการทำงานดีกว่า react เพราะ render จาก server side
+        ความแตกต่างของ React และ Next คือ React เป็นไลบรารี ที่ทำงานในส่วน Client side ไม่มี router ของตัวเอง และในการทำ SEO จำเป็นต้องใช้ตัวช่วยเนื่องจาก react ทำงานฝั่ง Client ส่วน Next เป็น framework ของ react มีรูปแบบเหมือน react แต่มีการจัดการ route ของตัวเองและทำงานใน server side ทำให้จัดการ SEO ได้ดีกว่าเพราะข้อมูลถูก render แล้วก่อนส่งไปยังหน้าเว็บ และทำได้ทั้ง Client และ Server สามารถสร้าง api routes ได้และมีประสิทธิภาพการทำงานดีกว่า react เพราะ render จาก server side
       </p>
     </div>
 
