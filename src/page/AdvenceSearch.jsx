@@ -44,7 +44,6 @@ const AdvancedSearch = () => {
   const handleRegionChange = (region) => {
     setSelectedRegions((prevSelectedRegions) => {
       if (prevSelectedRegions.includes(region)) {
-        // Unselecting a region, so unselect its provinces and languages
         setSelectedProvinces((prevSelectedProvinces) => {
           const newSelectedProvinces = { ...prevSelectedProvinces };
           delete newSelectedProvinces[region];
@@ -57,7 +56,7 @@ const AdvancedSearch = () => {
         });
         return prevSelectedRegions.filter((r) => r !== region);
       } else {
-        // Selecting a region, so select its provinces
+        
         const allProvinces = Object.keys(data[region]);
 
         setSelectedProvinces((prevSelectedProvinces) => ({
