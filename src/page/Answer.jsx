@@ -7,7 +7,7 @@ function Answer() {
     <div className="space-y-2">
       <h2 className="text-2xl font-semibold">Event Loop</h2>
       <p className="text-gray-700">
-        Event loop ใน JavaScript คือการทำงานในเบื้องหลังการทำงานต่าง ๆ โดย JavaScript จะรันเป็น Single theard คือมันจะรันงานได้แค่ task เดียว โดยใน JavaScript จะมี task อยู่ 2 อย่างคือ Marcotask และ Microtask โดย Marcotask จะมี task พวกที่ทำงานใน main thread เช่น การ render, for-loop, settimeout ส่วน Mircrotask ก็จะเป็น task ที่จัดการกับ promise และ eventhandles ที่เกี่ยวข้องกับ DOM โดยทั่วไปแล้ว macro tasks จะถูกเรียกใช้งานก่อน micro tasks โดย macro tasks จะถูกเรียกใช้งานในทุก ๆ รอบของ Event Loop ในขณะที่ micro tasks อาจถูกเรียกใช้งานหลังจาก microtask ว่าง โดยมักจะถูกเรียกใช้งานหลังจาก microtask ก่อนหน้านั้นได้เสร็จสิ้นแล้ว
+        Event loop ใน JavaScript คือการทำงานในเบื้องหลังการทำงานต่าง ๆ โดย JavaScript จะรันเป็น Single theard คือมันจะรันงานได้แค่ task เดียว โดยใน JavaScript จะมี task อยู่ 2 อย่างคือ Macrotask และ Microtask โดย Macrotask จะมี task พวกที่ทำงานใน main thread เช่น การ render, for-loop, settimeout ส่วน Mircrotask ก็จะเป็น task ที่จัดการกับ promise และ eventhandles ที่เกี่ยวข้องกับ DOM โดยทั่วไปแล้ว macro tasks จะถูกเรียกใช้งานก่อน micro tasks โดย macro tasks จะถูกเรียกใช้งานในทุก ๆ รอบของ Event Loop ในขณะที่ micro tasks อาจถูกเรียกใช้งานหลังจาก microtask ว่าง โดยมักจะถูกเรียกใช้งานหลังจาก microtask ก่อนหน้านั้นได้เสร็จสิ้นแล้ว
       </p>
     </div>
 
