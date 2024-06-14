@@ -83,7 +83,7 @@ function MasterMind() {
   return (
     <div className="min-h-screen bg-gradient-to-t from-indigo-200 flex flex-col items-center justify-center">
       <h1 className="text-4xl mt-20 font-bold mb-4">Master Mind Game</h1>
-      <p className="mb-4">ตัวเลขที่สุ่ม : {answer.join(', ')}</p>
+      {/* <p className="mb-4">ตัวเลขที่สุ่ม : {answer.join(', ')}</p> */}
       <form onSubmit={handleGuessSubmit} className="mb-4">
         <input
           type="text"
