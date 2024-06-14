@@ -18,12 +18,9 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-      { path: "/", element: <AdvenceSearch /> },
-      { path: "/advancesearch", element: <AdvenceSearch /> },
-      { path: "/mastermind", element: <MasterMind /> },
+      { path: "/", element: <MasterMind /> },
       { path: "/detailcar", element: <DetailCar /> },
       { path: "/decimalfinder", element: <DecimalFinder /> },
-      { path: "/answer", element: <Answer /> },
     ],
   },
 ]);

@@ -9,7 +9,7 @@ function Menubar() {
           <ul className="hidden md:flex space-x-10 text-gray-600 font-sans text-xl uppercase">
            
             <li>
-              <Link className="hover:text-gray-500" to="/mastermind">
+              <Link className="hover:text-gray-500" to="/">
                 Master Mind
               </Link>
             </li>
